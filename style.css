@@ -1,14 +1,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
  
     :root {
-      --bg: #f7f6f2;
-      --surface: #ffffff;
-      --ink: #1a1a18;
-      --ink-muted: #6b6b66;
-      --ink-faint: #b0afa8;
-      --accent: #2c5f2e;
-      --accent-light: #e8f0e8;
-      --border: #e2e0d8;
+      --bg: #0b2014;
+      --surface: #122a1c;
+      --ink: #e89055;
+      --ink-muted: #b06838;
+      --ink-faint: #7a4a28;
+      --accent: #f07830;
+      --accent-light: #251808;
+      --border: #1c3a24;
       --mono: 'DM Mono', monospace;
       --sans: 'DM Sans', sans-serif;
     }
@@ -29,7 +29,7 @@
     /* ── Nav ── */
     nav {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(247, 246, 242, 0.9);
+      background: rgba(11, 32, 20, 0.92);
       backdrop-filter: blur(8px);
       border-bottom: 1px solid var(--border);
     }
@@ -106,7 +106,7 @@
       background: var(--ink);
       color: var(--bg);
     }
-    .btn-primary:hover { background: #333330; }
+    .btn-primary:hover { background: #c06828; }
     .btn-outline {
       background: transparent;
       color: var(--ink);

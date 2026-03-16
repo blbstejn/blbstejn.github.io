@@ -175,7 +175,7 @@
       background: var(--accent-light);
       color: var(--accent);
     }
-    .tag.gray { background: #eeede8; color: var(--ink-muted); }
+    .tag.gray { background: #1a3225; color: var(--ink-muted); }
     .project-title {
       font-size: 1rem;
       font-weight: 500;
